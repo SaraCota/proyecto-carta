@@ -1,0 +1,67 @@
+.letter {
+    width: 80%;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    margin: 0 auto ;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0,0, 0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+}
+
+.small-text {
+    margin: 2% 8% 3%;
+    font-size: 0.8em;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 0 5% 0;
+    width: 30%;
+    text-align: center;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    margin-top: 2%;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+textarea:focus {
+    outline: none !important;
+}
+
+textarea
+{
+  line-height: 4ch;
+  background-image: linear-gradient(transparent, transparent calc(4ch - 1px), black 0px);
+  background-size: 100% 4ch;
+}
+
+.food-elements {
+    text-align: justify;
+}
+
+.food-elements div {
+    display: inline-block;
+    margin: auto;
+    padding: 15px;
+}
+
+.food-category {
+    background-color: royalblue;
+}
+
+.food-items {
+    background-color: salmon;
+}
