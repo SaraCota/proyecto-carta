@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import Letter from './components/Letter';
 
-ReactDOM.render(<App/>,document.querySelector('#root'));
+ReactDOM.render(<Letter/>,document.querySelector('#root'));

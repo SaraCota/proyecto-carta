@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style.css';
+import '../components/style.css';
 
 class App extends React.Component {
     render(){
@@ -49,6 +49,9 @@ class App extends React.Component {
                             <div id='bkg4'></div>
                             <div id='bkg5'></div>
                         </div>
+                    </div>
+                    <div className='section-4'>
+                        <div className='imagen'></div>
                     </div>
                 </div>
                 <button className='submit-button'>ENVIAR</button>
